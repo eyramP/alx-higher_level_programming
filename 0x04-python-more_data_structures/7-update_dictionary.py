@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-def update_dictionary(a_dictinary, key, value):
-    a_dictinary[key] = value
-    return a_dictinary
+def update_dictionary(a_dictionary, key, value):
+    a_dictionary[key] = value
+    return (a_dictionary)
