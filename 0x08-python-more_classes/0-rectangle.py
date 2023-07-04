@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+# 0-rectangle.py
+# Eyram Cobblah
+"""Rectangle class."""
+
+
 class Rectangle:
-    """Empty class """
-    pass 
+    """Represent a rectangle."""
+    pass
