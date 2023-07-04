@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-"""
-Module that containts a clas that avoids
-dynmaically created attributes
-"""
+# 101-locked_class.py
+# Eyram Cobblah
+"""Defines a locked class."""
 
 
 class LockedClass:
-    __slots__ = ['first_name']
+    """
+    Prevent the user from instantiating new LockedClass attributes
+    for anything except an attributes called 'first_name'.
+    """
 
-    def __init__(self):
-        """ Init method """
-        pass
+    __slots__ = ["first_name"]
