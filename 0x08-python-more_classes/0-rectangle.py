@@ -1,9 +1,6 @@
 #!/usr/bin/python3
-# 0-rectangle.py
-# Eyram Cobblah
-"""Rectangle class."""
-
-
 class Rectangle:
-    """Represent a rectangle."""
-    pass
+    """Defines a rectangle
+    """
+    def __init__(self):
+        pass
